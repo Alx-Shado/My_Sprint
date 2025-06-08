@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-car_data = pd.read_csv('/home/shado/TripleT/Sprint_7/My_Sprint/vehicles_us.csv') # leer los datos
+car_data = pd.read_csv('vehicles_us.csv') # leer los datos
 
 st.header('Histograma de Kilometraje de Vehículos')
 if st.button('Construir histograma'):
